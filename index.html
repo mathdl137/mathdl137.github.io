@@ -1,15 +1,86 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>dl137 的个人主页</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Academic Page</title>
     <style>
-        body { font-family: Arial; max-width: 800px; margin: 50px auto; padding: 20px; }
+        /*  LaTeX \textsf */
+        body {
+            font-family: 'Helvetica', 'Arial', sans-serif;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+        h1, h2, h3 {
+            font-weight: 400;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 0.3em;
+        }
+        a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .paper-item {
+            margin: 10px 0;
+        }
+        .paper-title {
+            font-weight: 500;
+        }
+        .paper-authors, .paper-journal {
+            color: #555;
+            font-size: 0.95em;
+        }
+        .footer {
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #777;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+        }
     </style>
 </head>
 <body>
-    <h1>你好，我是 dl137</h1>
-    <p>这是我的学术主页，正在建设中...</p>
-    <p>我的研究方向：物理学 | 精细结构常数</p>
-    <p>📧 邮箱：你的邮箱@example.com</p>
+    <h1>Your Full Name</h1>
+    <p>
+        PhD Student / Postdoc / Professor<br>
+        Department of Physics, University Name<br>
+        Email: <a href="mailto:your.email@example.com">your.email@example.com</a>
+    </p>
+
+    <h2>Research Interests</h2>
+    <p>
+        Quantum field theory, fine structure constant, particle physics, etc.
+    </p>
+
+    <h2>Publications</h2>
+    <div class="paper-item">
+        <span class="paper-title">Title of Paper 1</span><br>
+        <span class="paper-authors">Your Name, Coauthor A, Coauthor B</span><br>
+        <span class="paper-journal">Journal Name, 2025</span><br>
+        <a href="paper1.pdf">PDF</a> | <a href="#">arXiv:2503.12345</a>
+    </div>
+    <div class="paper-item">
+        <span class="paper-title">Title of Paper 2</span><br>
+        <span class="paper-authors">Your Name, Coauthor C</span><br>
+        <span class="paper-journal">Journal Name, 2024</span><br>
+        <a href="paper2.pdf">PDF</a> | <a href="#">arXiv:2401.67890</a>
+    </div>
+
+    <h2>About Me</h2>
+    <p>
+        I am a PhD student at University Name, working under the supervision of Prof. X. 
+        My research focuses on the fine structure constant and its implications in quantum electrodynamics. 
+        I received my Bachelor's degree from University Name in 2020.
+    </p>
+
+    <div class="footer">
+        Last updated: March 2026
+    </div>
 </body>
 </html>
