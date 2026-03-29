@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <title>Various scripts</title>
+</head>
+<body>
+    <h1>Various scripts</h1>
+    
+    <p>The script for the paper ``Essential spectrum" </p>
+
+<p>
+    <strong>Note:</strong> For each Mathematica notebook below, you only need to run the first line of code:<br>
+    <code style="background:#f5f5f5;padding:8px 12px;display:inline-block;margin:5px 0;border-radius:4px;">
+        If[! TrueQ[Private`$ev], Block[{Private`$ev = True},<br>
+        Print["Total time: ", First@AbsoluteTiming[ClearAll["Global`*"];<br>
+        NotebookEvaluate[EvaluationNotebook[], InsertResults -&gt; True]], " s"]]]
+    </code><br>
+    This will automatically evaluate the entire notebook and report its execution time.<br>
+    <em>Timing results are based on a 2022 MacBook Air with an M2 chip and 16GB of RAM.</em>
+</p>
+    
+    <ol>
+        <li>
+          Mathematica <a href="pdfs/Appendix_AB_detail.nb"> notebook </a> for Appendix A and B  (43seconds) and 
+            <a href="pdfs/Appendix_AB_detail.pdf">Pdf printout</a> (for those without access to Mathematica)
+        </li>
+        <li> Mathematica
+            <a href="pdfs/Casel01_detail.nb"> notebook </a> for case l=0, 1 (16 seconds) and 
+            <a href="pdfs/Casel01_detail.pdf">Pdf printout</a> (for those without access to Mathematica)
+        </li>
+        <li> Mathematica
+            <a href="pdfs/CheckbyCAD_detail.nb"> notebook </a> using Reduce (this takes only 2 seconds to check all
+cases including Appendix A, B, case l=0, 1! One can also use Resolve) and 
+            <a href="pdfs/CheckbyCAD_detail.pdf">Pdf printout</a> (for those without access to Mathematica)
+        </li>
+    </ol>
+
+
+</body></html>
